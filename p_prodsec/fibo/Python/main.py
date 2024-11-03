@@ -16,14 +16,3 @@ def  fibonacci (z):
 
 fibonacci(10)
 
-import math
-def binet (a):
-
-    phi = (1+math.sqrt(5))/2
-    psi = (1-math.sqrt(5))/2
-    print(phi)
-    print(psi)
-    fib = (phi**a - psi**a) / math.sqrt(5)
-    print(fib)
-
-binet(9)
